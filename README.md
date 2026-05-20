@@ -1,71 +1,147 @@
+# Free Toilets Vienna
 
-# Free Toilets Vienna — MVP
+Find free, clean and accessible public toilets in Vienna.
 
-Lightweight SEO-first directory website.
+This project is a lightweight directory and interactive map of Vienna's public WC locations built using official Open Government Data from Stadt Wien.
 
 ## Features
-- OpenStreetMap + Leaflet
-- Mobile-friendly
-- SEO-optimized homepage
-- Search functionality
-- JSON-based data structure
-- Easy deployment
 
-## Recommended Hosting
-- Cloudflare Pages
-- Vercel
-- Netlify
+- Interactive Leaflet map of public toilets in Vienna
+- Marker clustering for dense city areas
+- "Near me" feature with directions
+- Accessible / wheelchair-friendly toilet filter
+- Baby changing facilities filter
+- Opening hours and status hints
+- Search and filtering
+- Mobile-friendly design
+- SEO landing pages
+- Structured data with Schema.org JSON-LD
+- Fast lightweight frontend with no framework
 
-## Next Steps
-1. Add 100+ toilets
-2. Create district pages
-3. Add user submissions
-4. Add cleanliness ratings
-5. Add photos
-6. Add structured schema.org markup
+## Tech Stack
 
-## SEO Targets
-- free toilets vienna
-- public wc vienna
-- clean toilets vienna
-- accessible toilets vienna
-- toilet near stephansplatz
+- HTML
+- CSS
+- Vanilla JavaScript
+- Leaflet.js
+- OpenStreetMap
+- Python import scripts
 
+## Project Structure
 
-## Data note
-The current database is an enriched starter dataset. Schedules marked "Needs verification" should be checked against the official Stadt Wien district WC pages or by field visit before public launch.
+```text
+vienna-wc-directory/
+├── data/
+│   ├── raw/
+│   ├── manual_toilets.json
+│   └── toilets.json
+│
+├── tools/
+│   └── import_wien_wc.py
+│
+├── index.html
+├── style.css
+├── script.js
+├── seo-pages.js
+├── WCANLAGE2OGD.json
+└── README.md
+```
 
-## Added in v2
-- 16 starter locations
-- Schedule field
-- Schedule verification notes
-- Filters: free, accessible, baby changing, open now
-- Better popup information
+## Local Development
 
-## Added in v3 — Wien.gv importer
-
-This version includes a lightweight importer for the official Stadt Wien public WC data.
-
-### Run the importer
+Clone the repository:
 
 ```bash
-pip install -r requirements.txt
+git clone https://github.com/anastasia-varna/vienna-wc-directory.git
+cd vienna-wc-directory
+```
+
+Generate the website data:
+
+```bash
 python tools/import_wien_wc.py
 ```
 
-The importer creates/updates:
+Start a local static server:
 
-- `data/raw/wien_wc_raw.json` — raw downloaded official JSON
-- `data/toilets.json` — normalized data used by the website
+```bash
+python -m http.server 8000
+```
 
-### Source attribution
+Then open:
 
-The imported official data should be credited on the website as:
+```text
+http://localhost:8000
+```
 
-> Source: Stadt Wien / wien.gv.at, CC BY 4.0
+## Import Latest Toilet Data
 
-Do not copy long official text descriptions directly. Use the factual data as a base and add your own value layer: photos, field notes, cleanliness, safety, queue information and user reports.
+The project currently reads the local official data snapshot:
 
-### Important
+```text
+WCANLAGE2OGD.json
+```
 
-The importer is defensive because official public data formats can change. Always review `data/toilets.json` after importing before publishing.
+Run:
+
+```bash
+python tools/import_wien_wc.py
+```
+
+This generates:
+
+```text
+data/toilets.json
+```
+
+`data/toilets.json` is ignored by git because it is generated.
+
+## Manual Toilet Entries
+
+Custom manually verified toilets can be added in:
+
+```text
+data/manual_toilets.json
+```
+
+These entries are automatically merged into the final dataset during import.
+
+## SEO Pages
+
+The project includes focused static pages for search traffic:
+
+- `free-toilets-vienna.html`
+- `accessible-toilets-vienna.html`
+- `public-toilets-1010-vienna.html`
+- `toilets-near-stephansplatz.html`
+- `toilets-near-prater.html`
+
+Remember to replace `https://yourdomain.at/` in canonical links, `robots.txt`, and `sitemap.xml` before production launch.
+
+## Data Source
+
+Toilet location data:
+Stadt Wien Open Government Data
+
+License:
+CC BY 4.0
+
+This project is not affiliated with or endorsed by Stadt Wien.
+
+## Future Ideas
+
+- Multilingual support
+- Toilet cleanliness ratings
+- User submissions
+- Photos and field notes
+- More district and landmark pages
+- Europe-wide expansion
+
+## License
+
+Code:
+MIT License
+
+Public toilet location data:
+CC BY 4.0 - Stadt Wien Open Government Data
+https://data.wien.gv.at

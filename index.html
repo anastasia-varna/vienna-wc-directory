@@ -1,0 +1,127 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Free Toilets Vienna | Find Clean Public WCs in Vienna</title>
+
+  <meta name="description" content="Find free, clean and accessible toilets in Vienna. Search public WCs, baby changing stations and wheelchair-accessible restrooms near you." />
+
+  <meta name="keywords" content="free toilets Vienna, public WC Vienna, clean toilets Vienna, accessible toilets Vienna, toilet map Vienna" />
+
+  <link rel="canonical" href="https://yourdomain.at/" />
+  <link rel="preconnect" href="https://unpkg.com" />
+  <link rel="preconnect" href="https://tile.openstreetmap.org" />
+
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+  />
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css"
+  />
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css"
+  />
+
+  <link rel="stylesheet" href="style.css" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://yourdomain.at/#website",
+        "name": "Free Toilets Vienna",
+        "url": "https://yourdomain.at/",
+        "description": "Find free, clean and accessible public toilets in Vienna."
+      },
+      {
+        "@type": "WebApplication",
+        "@id": "https://yourdomain.at/#app",
+        "name": "Free Toilets Vienna Map",
+        "url": "https://yourdomain.at/",
+        "applicationCategory": "TravelApplication",
+        "operatingSystem": "Any",
+        "description": "Interactive map for finding public toilets, accessible WCs and baby changing stations in Vienna."
+      },
+      {
+        "@type": "Dataset",
+        "@id": "https://yourdomain.at/#dataset",
+        "name": "Vienna Public Toilet Directory",
+        "description": "Normalized public toilet locations for Vienna with coordinates, opening details and accessibility attributes.",
+        "license": "https://creativecommons.org/licenses/by/4.0/",
+        "creator": {
+          "@type": "Organization",
+          "name": "Stadt Wien"
+        },
+        "isBasedOn": "https://www.wien.gv.at/zusammenleben/oeffentliche-wc"
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+
+<header>
+  <h1>🚻 Free Toilets Vienna</h1>
+  <p>Find clean, free & accessible toilets in Vienna.</p>
+</header>
+
+<div class="controls">
+  <div class="search-row">
+    <input type="text" id="search" placeholder="Search district, place or landmark..." autocomplete="off" />
+    <button type="button" id="nearMe">Near me</button>
+  </div>
+  <div class="filter-row" aria-label="Toilet filters">
+    <label><input type="checkbox" id="freeOnly" /> Free</label>
+    <label><input type="checkbox" id="accessibleOnly" /> Accessible</label>
+    <label><input type="checkbox" id="babyOnly" /> Baby changing</label>
+    <label><input type="checkbox" id="openNowOnly" /> Open now</label>
+  </div>
+</div>
+<div id="count"></div>
+<div id="nearest" class="nearest-panel" hidden></div>
+
+<div id="map"></div>
+
+<section class="seo-section">
+  <h2>Best Free Toilets in Vienna</h2>
+
+  <p>
+    Discover reliable public toilets across Vienna including wheelchair-accessible WCs,
+    baby changing stations and free restrooms near tourist attractions and U-Bahn stations.
+  </p>
+
+  <h3>Popular Areas</h3>
+  <ul>
+    <li><a href="toilets-near-stephansplatz.html">Toilets near Stephansplatz</a></li>
+    <li><a href="toilets-near-prater.html">Toilets near Prater</a></li>
+    <li>Schönbrunn</li>
+    <li>Naschmarkt</li>
+    <li>MuseumsQuartier</li>
+    <li>Rathauspark</li>
+  </ul>
+
+  <h3>Vienna Toilet Guides</h3>
+  <ul>
+    <li><a href="free-toilets-vienna.html">Free toilets in Vienna</a></li>
+    <li><a href="accessible-toilets-vienna.html">Accessible toilets in Vienna</a></li>
+    <li><a href="public-toilets-1010-vienna.html">Public toilets in 1010 Vienna</a></li>
+  </ul>
+</section>
+
+<footer>
+  <p>Built for Vienna locals, tourists and emergency situations.</p>
+  <p class="source-note">Base public WC data: Stadt Wien / wien.gv.at, CC BY 4.0. Community notes are independently added.</p>
+</footer>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>

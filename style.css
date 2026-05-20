@@ -1,0 +1,310 @@
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f5f5f5;
+  color: #222;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+  background: white;
+  border-bottom: 1px solid #ddd;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav {
+  margin-top: 12px;
+}
+
+nav a {
+  color: #0b63ce;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 8px;
+}
+
+.controls {
+  padding: 12px 15px;
+  background: white;
+  border-bottom: 1px solid #ddd;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.search-row {
+  display: flex;
+  gap: 10px;
+  margin: 0 auto;
+  max-width: 900px;
+}
+
+#search {
+  flex: 1;
+  width: 100%;
+  min-height: 48px;
+  padding: 12px 14px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+#nearMe {
+  background: #0b63ce;
+  border: 0;
+  border-radius: 8px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 700;
+  min-height: 48px;
+  padding: 0 18px;
+  white-space: nowrap;
+}
+
+#nearMe:disabled {
+  background: #7fa9db;
+  cursor: wait;
+}
+
+.filter-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 10px auto 0;
+  max-width: 900px;
+}
+
+#map {
+  height: 72vh;
+  min-height: 440px;
+  width: 100%;
+}
+
+.seo-section {
+  padding: 30px;
+  background: white;
+  margin-top: 10px;
+}
+
+.seo-page {
+  background: #fff;
+}
+
+.seo-page main {
+  margin: 0 auto;
+  max-width: 980px;
+  padding: 26px 18px 42px;
+}
+
+.intro {
+  color: #444;
+  font-size: 18px;
+  line-height: 1.5;
+  margin: 0 auto;
+  max-width: 760px;
+}
+
+.quick-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 18px;
+}
+
+.button-link {
+  background: #0b63ce;
+  border-radius: 8px;
+  color: #fff;
+  display: inline-block;
+  font-weight: 700;
+  padding: 10px 14px;
+  text-decoration: none;
+}
+
+.secondary-link {
+  background: #eef4ff;
+  color: #0b63ce;
+}
+
+.content-section {
+  border-top: 1px solid #e5e5e5;
+  margin-top: 28px;
+  padding-top: 24px;
+}
+
+.toilet-list {
+  display: grid;
+  gap: 12px;
+  list-style: none;
+  margin: 16px 0 0;
+  padding: 0;
+}
+
+.toilet-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 14px;
+}
+
+.toilet-card h3 {
+  font-size: 17px;
+  margin: 0 0 6px;
+}
+
+.toilet-meta {
+  color: #555;
+  font-size: 14px;
+  line-height: 1.45;
+}
+
+.faq-list dt {
+  font-weight: 700;
+  margin-top: 16px;
+}
+
+.faq-list dd {
+  margin: 6px 0 0;
+}
+
+footer {
+  padding: 20px;
+  text-align: center;
+  color: #666;
+}
+
+.controls label {
+  align-items: center;
+  background: #f3f6fa;
+  border: 1px solid #d7e0ea;
+  border-radius: 8px;
+  display: inline-flex;
+  gap: 7px;
+  font-size: 14px;
+  font-weight: 700;
+  min-height: 42px;
+  padding: 8px 10px;
+}
+
+.controls input[type="checkbox"] {
+  height: 18px;
+  width: 18px;
+}
+
+#count {
+  padding: 8px 15px;
+  background: #fff;
+  color: #555;
+  border-bottom: 1px solid #ddd;
+}
+
+.nearest-panel {
+  align-items: center;
+  background: #fff;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 12px;
+  padding: 10px 15px;
+}
+
+.nearest-panel a {
+  background: #0b63ce;
+  border-radius: 8px;
+  color: #fff;
+  font-weight: 700;
+  padding: 8px 12px;
+  text-decoration: none;
+}
+
+.leaflet-popup-content strong { font-size: 15px; }
+.badge { display:inline-block; padding:2px 6px; border-radius:999px; background:#eee; margin:2px 2px 2px 0; font-size:12px; }
+.warning { color:#8a5a00; font-size:12px; }
+
+.source-note {
+  font-size: 13px;
+  color: #777;
+}
+
+@media (max-width: 640px) {
+  body {
+    font-size: 16px;
+  }
+
+  header {
+    padding: 14px 12px;
+  }
+
+  header h1 {
+    font-size: 24px;
+  }
+
+  header p {
+    margin: 6px 0 0;
+  }
+
+  .controls {
+    padding: 10px;
+  }
+
+  .search-row {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  #nearMe {
+    width: 100%;
+  }
+
+  .filter-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .controls label {
+    justify-content: center;
+    min-height: 46px;
+    padding: 8px;
+  }
+
+  #count {
+    font-size: 14px;
+  }
+
+  .nearest-panel {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .nearest-panel a {
+    text-align: center;
+  }
+
+  #map {
+    height: 68vh;
+    min-height: 420px;
+  }
+
+  .intro {
+    font-size: 16px;
+  }
+
+  .quick-actions {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .button-link {
+    text-align: center;
+  }
+}

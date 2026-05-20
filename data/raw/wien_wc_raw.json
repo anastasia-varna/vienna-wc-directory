@@ -1,0 +1,386 @@
+[
+  {
+    "page_url": "https://www.wien.gv.at/zusammenleben/oeffentliche-wc",
+    "json_url": "https://www.wien.gv.at/zusammenleben/oeffentliche-wc.json",
+    "raw": {
+      "title": "Öffentliche <abbr title=\"Wasserklosett\">WC</abbr>-Anlagen",
+      "uid": "1fb3422e-6cfe-411b-b42c-7464d5e31cd6",
+      "description": "Ausstattungen und Lage nach Bezirken geordnet",
+      "geo": {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point"
+        },
+        "properties": {}
+      }
+    }
+  },
+  {
+    "page_url": "https://www.wien.gv.at/zusammenleben/oeffentliche-wc-bezirk1",
+    "json_url": "https://www.wien.gv.at/zusammenleben/oeffentliche-wc-bezirk1.json",
+    "raw": {
+      "title": "Öffentliche <abbr title=\"Wasserklosett\">WC</abbr>-Anlagen im 1. Bezirk",
+      "uid": "a230edb2-7d30-4b63-8887-8eded99d1887",
+      "description": "Alle Standorte von öffentlichen WC-Anlagen im 1. Bezirk mit Angaben zu barrierefreien Behindertenkabinen, Defibrillator, Wartepersonal, euro-key Schließsystem und möglichen Sperren",
+      "geo": {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point"
+        },
+        "properties": {}
+      }
+    }
+  },
+  {
+    "page_url": "https://www.wien.gv.at/zusammenleben/oeffentliche-wc-bezirk10",
+    "json_url": "https://www.wien.gv.at/zusammenleben/oeffentliche-wc-bezirk10.json",
+    "raw": {
+      "title": "Öffentliche <abbr title=\"Wasserklosett\">WC</abbr>-Anlagen im 10. Bezirk",
+      "uid": "cd84c4d5-8dc2-4f09-b340-4b3c3a603c95",
+      "description": "Alle Standorte von öffentlichen WC-Anlagen im 10. Bezirk mit Angaben zu barrierefreien Behindertenkabinen, Defibrillator, Wartepersonal, euro-key Schließsystem und möglichen Sperren",
+      "geo": {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point"
+        },
+        "properties": {}
+      }
+    }
+  },
+  {
+    "page_url": "https://www.wien.gv.at/zusammenleben/oeffentliche-wc-bezirk11",
+    "json_url": "https://www.wien.gv.at/zusammenleben/oeffentliche-wc-bezirk11.json",
+    "raw": {
+      "title": "Öffentliche <abbr title=\"Wasserklosett\">WC</abbr>-Anlagen im 11. Bezirk",
+      "uid": "a51f8ba2-ed20-4ce0-90d2-5f8c60434b66",
+      "description": "Alle Standorte von öffentlichen WC-Anlagen im 11. Bezirk mit Angaben zu barrierefreien Behindertenkabinen, Defibrillator, Wartepersonal, euro-key Schließsystem und möglichen Sperren",
+      "geo": {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point"
+        },
+        "properties": {}
+      }
+    }
+  },
+  {
+    "page_url": "https://www.wien.gv.at/zusammenleben/oeffentliche-wc-bezirk12",
+    "json_url": "https://www.wien.gv.at/zusammenleben/oeffentliche-wc-bezirk12.json",
+    "raw": {
+      "title": "Öffentliche <abbr title=\"Wasserklosett\">WC</abbr>-Anlagen im 12. Bezirk",
+      "uid": "0e5e1a43-41a5-438c-ab3c-4cc9cbd945a7",
+      "description": "Alle Standorte von öffentlichen WC-Anlagen im 12. Bezirk mit Angaben zu barrierefreien Behindertenkabinen, Defibrillator, Wartepersonal, euro-key Schließsystem und möglichen Sperren",
+      "geo": {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point"
+        },
+        "properties": {}
+      }
+    }
+  },
+  {
+    "page_url": "https://www.wien.gv.at/zusammenleben/oeffentliche-wc-bezirk13",
+    "json_url": "https://www.wien.gv.at/zusammenleben/oeffentliche-wc-bezirk13.json",
+    "raw": {
+      "title": "Öffentliche <abbr title=\"Wasserklosett\">WC</abbr>-Anlagen im 13. Bezirk",
+      "uid": "072972a5-81f5-4d67-b09c-eec6410ba439",
+      "description": "Alle Standorte von öffentlichen WC-Anlagen im 13. Bezirk mit Angaben zu barrierefreien Behindertenkabinen, Defibrillator, Wartepersonal, euro-key Schließsystem und möglichen Sperren",
+      "geo": {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point"
+        },
+        "properties": {}
+      }
+    }
+  },
+  {
+    "page_url": "https://www.wien.gv.at/zusammenleben/oeffentliche-wc-bezirk14",
+    "json_url": "https://www.wien.gv.at/zusammenleben/oeffentliche-wc-bezirk14.json",
+    "raw": {
+      "title": "Öffentliche <abbr title=\"Wasserklosett\">WC</abbr>-Anlagen im 14. Bezirk",
+      "uid": "f737af26-f6a7-49d0-a3fb-4fce27f62ade",
+      "description": "Alle Standorte von öffentlichen WC-Anlagen im 14. Bezirk mit Angaben zu barrierefreien Behindertenkabinen, Defibrillator, Wartepersonal, euro-key Schließsystem und möglichen Sperren",
+      "geo": {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point"
+        },
+        "properties": {}
+      }
+    }
+  },
+  {
+    "page_url": "https://www.wien.gv.at/zusammenleben/oeffentliche-wc-bezirk15",
+    "json_url": "https://www.wien.gv.at/zusammenleben/oeffentliche-wc-bezirk15.json",
+    "raw": {
+      "title": "Öffentliche <abbr title=\"Wasserklosett\">WC</abbr>-Anlagen im 15. Bezirk",
+      "uid": "b95612a4-187d-46ca-ad4d-140668755385",
+      "description": "Alle Standorte von öffentlichen WC-Anlagen im 15. Bezirk mit Angaben zu barrierefreien Behindertenkabinen, Defibrillator, Wartepersonal, euro-key Schließsystem und möglichen Sperren",
+      "geo": {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point"
+        },
+        "properties": {}
+      }
+    }
+  },
+  {
+    "page_url": "https://www.wien.gv.at/zusammenleben/oeffentliche-wc-bezirk16",
+    "json_url": "https://www.wien.gv.at/zusammenleben/oeffentliche-wc-bezirk16.json",
+    "raw": {
+      "title": "Öffentliche <abbr title=\"Wasserklosett\">WC</abbr>-Anlagen im 16. Bezirk",
+      "uid": "d5c32d8a-68ef-4fbd-8d43-5be9800f5cbe",
+      "description": "Alle Standorte von öffentlichen WC-Anlagen im 16. Bezirk mit Angaben zu barrierefreien Behindertenkabinen, Defibrillator, Wartepersonal, euro-key Schließsystem und möglichen Sperren",
+      "geo": {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point"
+        },
+        "properties": {}
+      }
+    }
+  },
+  {
+    "page_url": "https://www.wien.gv.at/zusammenleben/oeffentliche-wc-bezirk17",
+    "json_url": "https://www.wien.gv.at/zusammenleben/oeffentliche-wc-bezirk17.json",
+    "raw": {
+      "title": "Öffentliche <abbr title=\"Wasserklosett\">WC</abbr>-Anlagen im 17. Bezirk",
+      "uid": "02240ef4-0171-443e-8150-501b8781401a",
+      "description": "Alle Standorte von öffentlichen WC-Anlagen im 17. Bezirk mit Angaben zu barrierefreien Behindertenkabinen, Defibrillator, Wartepersonal, euro-key Schließsystem und möglichen Sperren",
+      "geo": {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point"
+        },
+        "properties": {}
+      }
+    }
+  },
+  {
+    "page_url": "https://www.wien.gv.at/zusammenleben/oeffentliche-wc-bezirk18",
+    "json_url": "https://www.wien.gv.at/zusammenleben/oeffentliche-wc-bezirk18.json",
+    "raw": {
+      "title": "Öffentliche <abbr title=\"Wasserklosett\">WC</abbr>-Anlagen im 18. Bezirk",
+      "uid": "d88c7f9a-3bca-41ef-8ee0-75a8088c679f",
+      "description": "Alle Standorte von öffentlichen WC-Anlagen im 18. Bezirk mit Angaben zu barrierefreien Behindertenkabinen, Defibrillator, Wartepersonal, euro-key Schließsystem und möglichen Sperren",
+      "geo": {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point"
+        },
+        "properties": {}
+      }
+    }
+  },
+  {
+    "page_url": "https://www.wien.gv.at/zusammenleben/oeffentliche-wc-bezirk19",
+    "json_url": "https://www.wien.gv.at/zusammenleben/oeffentliche-wc-bezirk19.json",
+    "raw": {
+      "title": "Öffentliche <abbr title=\"Wasserklosett\">WC</abbr>-Anlagen im 19. Bezirk",
+      "uid": "e1c6a294-f02d-436d-a80a-23d71eb7271c",
+      "description": "Alle Standorte von öffentlichen WC-Anlagen im 19. Bezirk mit Angaben zu barrierefreien Behindertenkabinen, Defibrillator, Wartepersonal, euro-key Schließsystem und möglichen Sperren",
+      "geo": {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point"
+        },
+        "properties": {}
+      }
+    }
+  },
+  {
+    "page_url": "https://www.wien.gv.at/zusammenleben/oeffentliche-wc-bezirk2",
+    "json_url": "https://www.wien.gv.at/zusammenleben/oeffentliche-wc-bezirk2.json",
+    "raw": {
+      "title": "Öffentliche <abbr title=\"Wasserklosett\">WC</abbr>-Anlagen im 2. Bezirk",
+      "uid": "05f39d9d-4a4b-4885-85c9-06182cc2d429",
+      "description": "Alle Standorte von öffentlichen WC-Anlagen im 2. Bezirk mit Angaben zu barrierefreien Behindertenkabinen, Defibrillator, Wartepersonal, euro-key Schließsystem und möglichen Sperren",
+      "geo": {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point"
+        },
+        "properties": {}
+      }
+    }
+  },
+  {
+    "page_url": "https://www.wien.gv.at/zusammenleben/oeffentliche-wc-bezirk20",
+    "json_url": "https://www.wien.gv.at/zusammenleben/oeffentliche-wc-bezirk20.json",
+    "raw": {
+      "title": "Öffentliche <abbr title=\"Wasserklosett\">WC</abbr>-Anlagen im 20. Bezirk",
+      "uid": "c3a12e98-f888-4784-9cfc-528e778a2d6b",
+      "description": "Alle Standorte von öffentlichen WC-Anlagen im 20. Bezirk mit Angaben zu barrierefreien Behindertenkabinen, Defibrillator, Wartepersonal, euro-key Schließsystem und möglichen Sperren",
+      "geo": {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point"
+        },
+        "properties": {}
+      }
+    }
+  },
+  {
+    "page_url": "https://www.wien.gv.at/zusammenleben/oeffentliche-wc-bezirk21",
+    "json_url": "https://www.wien.gv.at/zusammenleben/oeffentliche-wc-bezirk21.json",
+    "raw": {
+      "title": "Öffentliche <abbr title=\"Wasserklosett\">WC</abbr>-Anlagen im 21. Bezirk",
+      "uid": "ed1d8908-8ee0-461b-b181-fcc12b307684",
+      "description": "Alle Standorte von öffentlichen WC-Anlagen im 21. Bezirk mit Angaben zu barrierefreien Behindertenkabinen, Defibrillator, Wartepersonal, euro-key Schließsystem und möglichen Sperren",
+      "geo": {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point"
+        },
+        "properties": {}
+      }
+    }
+  },
+  {
+    "page_url": "https://www.wien.gv.at/zusammenleben/oeffentliche-wc-bezirk22",
+    "json_url": "https://www.wien.gv.at/zusammenleben/oeffentliche-wc-bezirk22.json",
+    "raw": {
+      "title": "Öffentliche <abbr title=\"Wasserklosett\">WC</abbr>-Anlagen im 22. Bezirk",
+      "uid": "26b9c6e7-e5c4-41e2-99f8-c3f8c5ddad02",
+      "description": "Alle Standorte von öffentlichen WC-Anlagen im 22. Bezirk mit Angaben zu barrierefreien Behindertenkabinen, Defibrillator, Wartepersonal, euro-key Schließsystem und möglichen Sperren",
+      "geo": {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point"
+        },
+        "properties": {}
+      }
+    }
+  },
+  {
+    "page_url": "https://www.wien.gv.at/zusammenleben/oeffentliche-wc-bezirk23",
+    "json_url": "https://www.wien.gv.at/zusammenleben/oeffentliche-wc-bezirk23.json",
+    "raw": {
+      "title": "Öffentliche <abbr title=\"Wasserklosett\">WC</abbr>-Anlagen im 23. Bezirk",
+      "uid": "243ea52e-2837-4888-8c95-4d4cefb87fc9",
+      "description": "Alle Standorte von öffentlichen WC-Anlagen im 23. Bezirk mit Angaben zu barrierefreien Behindertenkabinen, Defibrillator, Wartepersonal, euro-key Schließsystem und möglichen Sperren",
+      "geo": {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point"
+        },
+        "properties": {}
+      }
+    }
+  },
+  {
+    "page_url": "https://www.wien.gv.at/zusammenleben/oeffentliche-wc-bezirk3",
+    "json_url": "https://www.wien.gv.at/zusammenleben/oeffentliche-wc-bezirk3.json",
+    "raw": {
+      "title": "Öffentliche <abbr title=\"Wasserklosett\">WC</abbr>-Anlagen im 3. Bezirk",
+      "uid": "98e6649c-867b-4a4f-bdda-fbaae76eba06",
+      "description": "Alle Standorte von öffentlichen WC-Anlagen im 3. Bezirk mit Angaben zu barrierefreien Behindertenkabinen, Defibrillator, Wartepersonal, euro-key Schließsystem und möglichen Sperren",
+      "geo": {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point"
+        },
+        "properties": {}
+      }
+    }
+  },
+  {
+    "page_url": "https://www.wien.gv.at/zusammenleben/oeffentliche-wc-bezirk4",
+    "json_url": "https://www.wien.gv.at/zusammenleben/oeffentliche-wc-bezirk4.json",
+    "raw": {
+      "title": "Öffentliche <abbr title=\"Wasserklosett\">WC</abbr>-Anlagen im 4. Bezirk",
+      "uid": "b40fcff8-868c-4ebc-897c-eeb9de369940",
+      "description": "Alle Standorte von öffentlichen WC-Anlagen im 4. Bezirk mit Angaben zu barrierefreien Behindertenkabinen, Defibrillator, Wartepersonal, euro-key Schließsystem und möglichen Sperren",
+      "geo": {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point"
+        },
+        "properties": {}
+      }
+    }
+  },
+  {
+    "page_url": "https://www.wien.gv.at/zusammenleben/oeffentliche-wc-bezirk5",
+    "json_url": "https://www.wien.gv.at/zusammenleben/oeffentliche-wc-bezirk5.json",
+    "raw": {
+      "title": "Öffentliche <abbr title=\"Wasserklosett\">WC</abbr>-Anlagen im 5. Bezirk",
+      "uid": "14f46444-4781-4764-8912-b5ff6c691471",
+      "description": "Alle Standorte von öffentlichen WC-Anlagen im 5. Bezirk mit Angaben zu barrierefreien Behindertenkabinen, Defibrillator, Wartepersonal, euro-key Schließsystem und möglichen Sperren",
+      "geo": {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point"
+        },
+        "properties": {}
+      }
+    }
+  },
+  {
+    "page_url": "https://www.wien.gv.at/zusammenleben/oeffentliche-wc-bezirk6",
+    "json_url": "https://www.wien.gv.at/zusammenleben/oeffentliche-wc-bezirk6.json",
+    "raw": {
+      "title": "Öffentliche <abbr title=\"Wasserklosett\">WC</abbr>-Anlagen im 6. Bezirk",
+      "uid": "8dc5c6b3-659e-494a-91ca-ecd50213b1f3",
+      "description": "Alle Standorte von öffentlichen WC-Anlagen im 6. Bezirk mit Angaben zu barrierefreien Behindertenkabinen, Defibrillator, Wartepersonal, euro-key Schließsystem und möglichen Sperren",
+      "geo": {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point"
+        },
+        "properties": {}
+      }
+    }
+  },
+  {
+    "page_url": "https://www.wien.gv.at/zusammenleben/oeffentliche-wc-bezirk7",
+    "json_url": "https://www.wien.gv.at/zusammenleben/oeffentliche-wc-bezirk7.json",
+    "raw": {
+      "title": "Öffentliche <abbr title=\"Wasserklosett\">WC</abbr>-Anlagen im 7. Bezirk",
+      "uid": "352e8763-8aae-4817-a58a-9866e7b84dd0",
+      "description": "Alle Standorte von öffentlichen WC-Anlagen im 7. Bezirk mit Angaben zu barrierefreien Behindertenkabinen, Defibrillator, Wartepersonal, eurokey Schließsystem und möglichen Sperren",
+      "geo": {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point"
+        },
+        "properties": {}
+      }
+    }
+  },
+  {
+    "page_url": "https://www.wien.gv.at/zusammenleben/oeffentliche-wc-bezirk8",
+    "json_url": "https://www.wien.gv.at/zusammenleben/oeffentliche-wc-bezirk8.json",
+    "raw": {
+      "title": "Öffentliche <abbr title=\"Wasserklosett\">WC</abbr>-Anlagen im 8. Bezirk",
+      "uid": "549170d1-e4bb-491f-aaa7-caccf54b33af",
+      "description": "Alle Standorte von öffentlichen WC-Anlagen im 8. Bezirk mit Angaben zu barrierefreien Behindertenkabinen, Defibrillator, Wartepersonal, euro-key Schließsystem und möglichen Sperren",
+      "geo": {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point"
+        },
+        "properties": {}
+      }
+    }
+  },
+  {
+    "page_url": "https://www.wien.gv.at/zusammenleben/oeffentliche-wc-bezirk9",
+    "json_url": "https://www.wien.gv.at/zusammenleben/oeffentliche-wc-bezirk9.json",
+    "raw": {
+      "title": "Öffentliche <abbr title=\"Wasserklosett\">WC</abbr>-Anlagen im 9. Bezirk",
+      "uid": "d8913d70-a9fc-404f-bd53-23d0a1fb5ddd",
+      "description": "Alle Standorte von öffentlichen WC-Anlagen im 9. Bezirk mit Angaben zu barrierefreien Behindertenkabinen, Defibrillator, Wartepersonal, euro-key Schließsystem und möglichen Sperren",
+      "geo": {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point"
+        },
+        "properties": {}
+      }
+    }
+  }
+]

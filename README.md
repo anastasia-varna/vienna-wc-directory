@@ -13,6 +13,8 @@ This project is a lightweight directory and interactive map of Vienna's public W
 - 🕒 Opening hours
 - 🔎 Search and filtering
 - 📱 Mobile-friendly design
+- 📍 "Near me" nearest toilet feature
+- 🧭 SEO landing pages with structured data
 - ⚡ Fast lightweight frontend (no framework)
 
 ---
@@ -38,8 +40,10 @@ vienna-wc-directory/
 │   └── toilets.json
 │
 ├── tools/
+│   ├── build_static.py
 │   └── import_wien_wc.py
 │
+├── dist/
 ├── index.html
 ├── style.css
 ├── script.js
@@ -65,13 +69,30 @@ cd vienna-wc-directory
 
 ### 3. Start local server
 
-Using Node.js:
+Generate the site data:
 
 ```bash
-npx serve
+python tools/import_wien_wc.py
 ```
 
-Or using VS Code Live Server.
+Then use VS Code Live Server or any local static server.
+
+---
+
+## ☁️ Cloudflare Pages
+
+Use Cloudflare Pages, not `npx wrangler deploy`.
+
+Recommended settings:
+
+```text
+Build command: python tools/build_static.py
+Build output directory: dist
+Root directory: /
+```
+
+The build script generates `data/toilets.json` and copies only public website files into `dist/`.
+This avoids publishing `.git`, `.venv`, source data, or temporary Wrangler files.
 
 ---
 
@@ -119,7 +140,6 @@ This project is not affiliated with or endorsed by Stadt Wien.
 
 ## 🌍 Future Ideas
 
-- "Near me" functionality
 - Multilingual support
 - Toilet cleanliness ratings
 - User submissions
@@ -150,16 +170,9 @@ Open an issue or submit a pull request.
 
 ## 📄 License
 
-MIT License for code.
+Code: MIT License
 
-Public toilet location data:
-CC BY 4.0 — Stadt Wien Open Government Data.## 📄 License
-
-Code:
-MIT License
-
-Public toilet location data:
-CC BY 4.0 — Stadt Wien Open Government Data
+Public toilet location data: CC BY 4.0 — Stadt Wien Open Government Data
 https://data.wien.gv.at
 
 This project is not affiliated with or endorsed by Stadt Wien.

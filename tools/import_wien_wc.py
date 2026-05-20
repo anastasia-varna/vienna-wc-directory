@@ -1,23 +1,6 @@
 import json
 from pathlib import Path
 
-import requests
-
-WFS_URL = (
-    "https://data.wien.gv.at/daten/geo"
-    "?service=WFS"
-    "&version=1.1.0"
-    "&request=GetFeature"
-    "&typeName=ogdwien:WCANLAGE2OGD"
-    "&srsName=EPSG:4326"
-    "&outputFormat=application/json"
-)
-
-HEADERS = {
-    "User-Agent": "ViennaWCDirectory/0.1 contact: your-email@example.com",
-    "Accept-Language": "de-AT,de;q=0.9,en;q=0.8",
-}
-
 OUTPUT = Path("data/toilets.json")
 
 

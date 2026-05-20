@@ -1,24 +1,23 @@
-# Free Toilets Vienna
+# 🚻 Free Toilets Vienna
 
 Find free, clean and accessible public toilets in Vienna.
 
 This project is a lightweight directory and interactive map of Vienna's public WC locations built using official Open Government Data from Stadt Wien.
 
-## Features
+## ✨ Features
 
-- Interactive Leaflet map of public toilets in Vienna
-- Marker clustering for dense city areas
-- "Near me" feature with directions
-- Accessible / wheelchair-friendly toilet filter
-- Baby changing facilities filter
-- Opening hours and status hints
-- Search and filtering
-- Mobile-friendly design
-- SEO landing pages
-- Structured data with Schema.org JSON-LD
-- Fast lightweight frontend with no framework
+- 🗺 Interactive map of public toilets in Vienna
+- ♿ Accessible / wheelchair-friendly toilets
+- 👶 Baby changing facilities
+- 🔑 Euro Key toilets
+- 🕒 Opening hours
+- 🔎 Search and filtering
+- 📱 Mobile-friendly design
+- ⚡ Fast lightweight frontend (no framework)
 
-## Tech Stack
+---
+
+## 📦 Tech Stack
 
 - HTML
 - CSS
@@ -27,7 +26,9 @@ This project is a lightweight directory and interactive map of Vienna's public W
 - OpenStreetMap
 - Python import scripts
 
-## Project Structure
+---
+
+## 📂 Project Structure
 
 ```text
 vienna-wc-directory/
@@ -42,45 +43,41 @@ vienna-wc-directory/
 ├── index.html
 ├── style.css
 ├── script.js
-├── seo-pages.js
 ├── WCANLAGE2OGD.json
 └── README.md
 ```
 
-## Local Development
+---
 
-Clone the repository:
+## 🚀 Local Development
+
+### 1. Clone repository
 
 ```bash
-git clone https://github.com/anastasia-varna/vienna-wc-directory.git
+git clone https://github.com/YOUR_USERNAME/vienna-wc-directory.git
+```
+
+### 2. Open project
+
+```bash
 cd vienna-wc-directory
 ```
 
-Generate the website data:
+### 3. Start local server
+
+Using Node.js:
 
 ```bash
-python tools/import_wien_wc.py
+npx serve
 ```
 
-Start a local static server:
+Or using VS Code Live Server.
 
-```bash
-python -m http.server 8000
-```
+---
 
-Then open:
+## 🔄 Import Latest Toilet Data
 
-```text
-http://localhost:8000
-```
-
-## Import Latest Toilet Data
-
-The project currently reads the local official data snapshot:
-
-```text
-WCANLAGE2OGD.json
-```
+The project uses official Vienna Open Government Data.
 
 Run:
 
@@ -94,9 +91,9 @@ This generates:
 data/toilets.json
 ```
 
-`data/toilets.json` is ignored by git because it is generated.
+---
 
-## Manual Toilet Entries
+## 🛠 Manual Toilet Entries
 
 Custom manually verified toilets can be added in:
 
@@ -106,42 +103,63 @@ data/manual_toilets.json
 
 These entries are automatically merged into the final dataset during import.
 
-## SEO Pages
+---
 
-The project includes focused static pages for search traffic:
-
-- `free-toilets-vienna.html`
-- `accessible-toilets-vienna.html`
-- `public-toilets-1010-vienna.html`
-- `toilets-near-stephansplatz.html`
-- `toilets-near-prater.html`
-
-Remember to replace `https://yourdomain.at/` in canonical links, `robots.txt`, and `sitemap.xml` before production launch.
-
-## Data Source
+## 📊 Data Source
 
 Toilet location data:
-Stadt Wien Open Government Data
+Stadt Wien – data.wien.gv.at
 
 License:
 CC BY 4.0
 
 This project is not affiliated with or endorsed by Stadt Wien.
 
-## Future Ideas
+---
 
+## 🌍 Future Ideas
+
+- "Near me" functionality
 - Multilingual support
 - Toilet cleanliness ratings
 - User submissions
-- Photos and field notes
-- More district and landmark pages
+- District pages for SEO
 - Europe-wide expansion
 
-## License
+---
+
+## ❤️ Why This Exists
+
+Sometimes you urgently need a toilet and government websites are difficult to use on mobile.
+
+This project aims to make finding public toilets in Vienna:
+- faster
+- simpler
+- more accessible
+- tourist friendly
+
+---
+
+## ☕ Contributing
+
+Found a missing toilet or wrong information?
+
+Open an issue or submit a pull request.
+
+---
+
+## 📄 License
+
+MIT License for code.
+
+Public toilet location data:
+CC BY 4.0 — Stadt Wien Open Government Data.## 📄 License
 
 Code:
 MIT License
 
 Public toilet location data:
-CC BY 4.0 - Stadt Wien Open Government Data
+CC BY 4.0 — Stadt Wien Open Government Data
 https://data.wien.gv.at
+
+This project is not affiliated with or endorsed by Stadt Wien.

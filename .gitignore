@@ -3,4 +3,10 @@ __pycache__/
 *.pyc
 data/toilets.json
 dist/
+
+# Wrangler files
 .wrangler/
+.dev.vars*
+!.dev.vars.example
+.env*
+!.env.example

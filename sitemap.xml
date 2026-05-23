@@ -2,20 +2,32 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://wcwien.at/</loc>
+    <lastmod>2026-05-23</lastmod>
+    <priority>1.0</priority>
   </url>
   <url>
     <loc>https://wcwien.at/free-toilets-vienna.html</loc>
+    <lastmod>2026-05-23</lastmod>
+    <priority>0.9</priority>
   </url>
   <url>
     <loc>https://wcwien.at/accessible-toilets-vienna.html</loc>
+    <lastmod>2026-05-23</lastmod>
+    <priority>0.9</priority>
   </url>
   <url>
     <loc>https://wcwien.at/public-toilets-1010-vienna.html</loc>
+    <lastmod>2026-05-23</lastmod>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://wcwien.at/toilets-near-stephansplatz.html</loc>
+    <lastmod>2026-05-23</lastmod>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://wcwien.at/toilets-near-prater.html</loc>
+    <lastmod>2026-05-23</lastmod>
+    <priority>0.8</priority>
   </url>
 </urlset>

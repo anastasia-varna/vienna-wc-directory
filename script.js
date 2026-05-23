@@ -37,20 +37,14 @@ fetch('data/toilets.json')
   });
 
 function applyFilters() {
-  const query = document.getElementById('search').value.toLowerCase();
+  const query = document.getElementById('search').value.trim().toLowerCase();
   const freeOnly = document.getElementById('freeOnly').checked;
   const accessibleOnly = document.getElementById('accessibleOnly').checked;
   const babyOnly = document.getElementById('babyOnly').checked;
   const openNowOnly = document.getElementById('openNowOnly').checked;
 
   const filtered = toiletData.filter(toilet => {
-    const matchesQuery =
-      toilet.name.toLowerCase().includes(query) ||
-      toilet.district.includes(query) ||
-      (toilet.area || '').toLowerCase().includes(query) ||
-      (toilet.notes || '').toLowerCase().includes(query);
-
-    return matchesQuery &&
+    return matchesSearch(toilet, query) &&
       (!freeOnly || toilet.free) &&
       (!accessibleOnly || toilet.accessible) &&
       (!babyOnly || toilet.baby_changing) &&
@@ -111,6 +105,30 @@ function applyUrlFilters() {
       document.getElementById(id).checked = true;
     }
   });
+}
+
+function matchesSearch(toilet, query) {
+  if (!query) return true;
+
+  const district = String(toilet.district || '').padStart(2, '0');
+
+  if (/^\d{1,2}$/.test(query)) {
+    return district === query.padStart(2, '0');
+  }
+
+  if (/^1\d{2}0$/.test(query)) {
+    return district === query.slice(1, 3);
+  }
+
+  const searchableText = [
+    toilet.name,
+    toilet.location_note,
+    toilet.category,
+    toilet.equipment,
+    toilet.notes
+  ].filter(Boolean).join(' ').toLowerCase();
+
+  return searchableText.includes(query);
 }
 
 function updateCount(showing, total) {

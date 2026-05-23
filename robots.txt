@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://yourdomain.at/sitemap.xml
+Sitemap: https://wcwien.at/sitemap.xml

@@ -20,6 +20,7 @@ function filterToilets(toilets, config) {
     if (toilet.lat == null || toilet.lng == null) return false;
     if (config.freeOnly && !toilet.free) return false;
     if (config.accessibleOnly && !toilet.accessible) return false;
+    if (config.open24Only && !is24HourToilet(toilet)) return false;
     if (config.district && toilet.district !== config.district) return false;
 
     if (config.landmark) {
@@ -67,6 +68,7 @@ function renderToiletList(toilets, total) {
       toilet.free ? 'Free' : 'May be paid',
       toilet.accessible ? 'Accessible' : null,
       toilet.baby_changing ? 'Baby changing' : null,
+      is24HourToilet(toilet) ? '24 hours' : null,
       toilet.euro_key ? 'Euro key' : null
     ].filter(Boolean).map(label => `<span class="badge">${escapeHtml(label)}</span>`).join('');
 
@@ -111,6 +113,15 @@ function escapeHtml(value) {
     .replace(/>/g, '&gt;')
     .replace(/"/g, '&quot;')
     .replace(/'/g, '&#039;');
+}
+
+function is24HourToilet(toilet) {
+  const schedule = `${toilet.schedule || ''} ${toilet.personal_service || ''} ${toilet.restrictions || ''}`.toLowerCase();
+  return Boolean(toilet.open_24h) ||
+    schedule.includes('00:00-24:00') ||
+    schedule.includes('0:00-24:00') ||
+    schedule.includes('24 hours') ||
+    schedule.includes('24/7');
 }
 
 function addStructuredData(toilets, totalMatches) {

@@ -8,18 +8,23 @@ ROOT = Path(__file__).resolve().parents[1]
 DIST = ROOT / "dist"
 
 STATIC_FILES = [
+    "24-hour-toilets-vienna.html",
     "404.html",
     "accessible-toilets-vienna.html",
     "free-toilets-vienna.html",
     "index.html",
     "public-toilets-1010-vienna.html",
+    "public-toilets-1070-vienna.html",
     "robots.txt",
     "script.js",
     "seo-pages.js",
     "sitemap.xml",
     "style.css",
     "toilets-near-prater.html",
+    "toilets-near-schonbrunn.html",
     "toilets-near-stephansplatz.html",
+    "toilets-near-westbahnhof.html",
+    "wheelchair-toilets-vienna.html",
 ]
 
 
